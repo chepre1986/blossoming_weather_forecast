@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
  <h1>
- Weather
+ 🌺 Weather 🌺
  </h1>
  <p>
    Created by Patrycja Szumska. Code {" "}
