@@ -1,22 +1,31 @@
 import React from "react";
 import './Weather.css';
+import Temperature from "./Temperature";
+import WeatherIcon from "./WeatherIcon";
 
 
 export default function Weather(){
 return(<div className='weather'>
-    <div className='row'>
-        <div className='col-5'>
+    <div className=' row icon-and-temp'>
+    <div className='col-6 left'><WeatherIcon />
+    </div>
+    <div className='col-6 right'>
+    <Temperature /></div>
+    </div>
+ <div className='row'>
+        <div className='col-6'>
         <ul className='main-info left'>
-               <li className='icon'>🌤️</li> 
+              
                <li className='hour'>20:45</li> 
                <li className='date'>May 21st 2021</li> 
                <li className='weekday'>Monday</li> 
-               <li className='city-name'>PARIS</li>
+              
         </ul>
        </div>
-       <div className='col-7'>
+       <div className='col-6'>
         <ul className='main-info right'>
-            <li className='temperature'>temperature: 16C</li>
+        <li className='description'>description: sunny</li>
+        <li className='precipitation'>precipitation: 35%</li>
             <li className='humidity'>humidity: 35%</li>
             <li className='wind'>wind: 10km/h</li>
         </ul>

@@ -1,15 +1,8 @@
- .search-form{
-align-items: center;
- }
-
-.one {
-margin: 5% 0% 5% 5%;
-padding: 5% 0% 5% 5%;
-min-width: 200px;
-max-width: 70%;
-    }
-    .two{
-        margin: 5% 5% 5% 0%;
-padding: 5% 5% 5% 0%;
-max-width: 30%;
-    }
+.searching-line{
+    margin: 0;
+    padding: 0 15%;
+    font-size: 20px;
+}
+.btn {
+       max-width: 100px;
+}

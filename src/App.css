@@ -1,21 +1,28 @@
 .App {
-  text-align: center;
+    font-family: 'Rubik', sans-serif;
+    max-width: 350;
+    margin: 30 auto;
 }
 
 .container {
   border:  #EEEEEE;
   max-width: 350px;
-  padding: 30px 60px;
+  
   border-radius: 15px;
   background-color: #EEEEEE;
   padding: 5%;
-  margin: 5%;
+  margin: 2% 0 1% 0;
 }
 h1{
   color: #172774;
+  text-align: center;
 }
 
 .links {
   color: #77D970;
+  max-width: 400px;
+  font-size: xx-small;
+  padding: 0 0 0 5%;
+  margin: 0 0 0 8% ;
 }
 

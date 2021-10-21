@@ -3,11 +3,25 @@ import "./SearchEngine.css";
 
 export default function SearchEngine(){
    return(
-       <form className="search-form">
- <div className="row">
-   <div className="col one"> <input type="text" className="form-control" placeholder="Enter city name..." /></div>
- <div className="col two"> <input type="button" className="btn btn-outline-secondary" value="Search" /></div>
-  </div> 
+    <form >
+    <div className="row searching-line">
+      <div className="col-9">
+        <input
+          type="search"
+          placeholder="Enter a city.."
+          className="form-control"
+          autoFocus="on"
+          
+        />
+      </div>
+      <div className="col-3">
+        <input
+          type="submit"
+          value="Search"
+          className="btn btn-outline-secondary "
+        />
+      </div>
+    </div>
   </form>
    ) 
 }

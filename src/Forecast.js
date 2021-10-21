@@ -14,13 +14,11 @@ export default function Forecast(){
 </div>   
 <div className='col forecast-temp'>
     <span className='col-5 max-temp'>
-       15C  
+       15°C  
     </span>
-    <span className='col-2'>
-    {" "}/{" "}  
-    </span>
-<span className='col-5 min-temp'>
-      4C 
+       {" / "}  
+   <span className='col-5 min-temp'>
+      4°C 
     </span>    
 </div>   
                </div>
@@ -33,36 +31,33 @@ export default function Forecast(){
 </div>   
 <div className='col forecast-temp'>
     <span className='col-5 max-temp'>
-       15C  
+       15°C  
     </span>
-    <span className='col-2'>
-    {" "}/{" "}  
-    </span>
+    
+    {" / "}  
+    
 <span className='col-5 min-temp'>
-      4C 
+      4°C 
     </span>    
 </div>  
                </div>
                <div className='col third'>
                <div className='col day-name third-day'>
-                   Thu
+                  Thu
                    </div>        
 <div className='col'>
-☁️     
+🌈      
+</div>   
+<div className='col forecast-temp'>
+    <span className='col-5 max-temp'>
+       15°C  
+    </span>
+        {" / "}  
+    <span className='col-5 min-temp'>
+      4°C 
+    </span>    
 </div>  
-<div className='col day-name forecast-temp'>
-    
-<span className='col-5 max-temp'>
-       15C  
-    </span>
-    <span className='col-2'>
-    {" "}/{" "}  
-    </span>
-<span className='col-5 min-temp'>
-      4C 
-    </span>     
-</div>                    
-                   </div>
+               </div>
                    <div className='col fourth'>
                    <div className='col day-name fourth-day'>
                        Fri
@@ -72,13 +67,13 @@ export default function Forecast(){
 </div>    
 <div className='col forecast-temp'>
     <span className='col-5 max-temp'>
-       15C  
+       15°C  
     </span>
-    <span className='col-2'>
-    {" "}/{" "}  
-    </span>
+    
+    {" / "}  
+   
 <span className='col-5 min-temp'>
-      4C 
+      4°C 
     </span>    
 </div>                
                </div>
@@ -91,13 +86,13 @@ Sat
 </div>       
 <div className='col forecast-temp'>
     <span className='col-5 max-temp'>
-       15C  
+       15°C  
     </span>
-    <span className='col-2'>
-       {" "}/{" "} 
-    </span>
+    
+       {" / "} 
+    
 <span className='col-5 min-temp'>
-      4C 
+      4°C 
     </span>    
 </div>   
                </div>
