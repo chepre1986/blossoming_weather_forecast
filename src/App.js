@@ -1,5 +1,6 @@
 
 import './App.css';
+import Weather from "./Weather";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
  <div className="col-3"> <input type="button" className="btn btn-outline-secondary" value="Search" /></div>
   </div> 
   </form>
+  <Weather />
  </div>
 
   <footer className="links">
