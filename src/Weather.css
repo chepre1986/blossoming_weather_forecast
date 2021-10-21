@@ -2,4 +2,19 @@
     color: #172774;
     padding: 5%;
     margin: 5%;
- };
+ }
+
+ li {
+     text-align: left;
+ }
+ ul {
+list-style: none;
+ }
+
+ .right{
+     font-size: small;
+ }
+
+ .icon {
+     font-size: 50px;
+ }
