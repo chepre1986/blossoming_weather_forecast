@@ -8,11 +8,11 @@
   padding: 30px 60px;
   border-radius: 15px;
   background-color: #EEEEEE;
-  color: #172774;
+  padding: 5%;
+  margin: 5%;
 }
-
-form {
-margin: 0;
+h1{
+  color: #172774;
 }
 
 .links {

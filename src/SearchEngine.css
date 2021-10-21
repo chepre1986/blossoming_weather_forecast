@@ -1,0 +1,13 @@
+ .search-form{
+align-items: center;
+ }
+
+.one {
+margin: 5% 0% 5% 5%;
+padding: 5% 0% 5% 5%;
+min-width: 200px;
+    }
+    .two{
+        margin: 5% 5% 5% 0%;
+padding: 5% 5% 5% 0%;
+    }

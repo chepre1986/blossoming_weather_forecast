@@ -1,6 +1,7 @@
 
 import './App.css';
 import Weather from "./Weather";
+import SearchEngine from "./SearchEngine";
 
 function App() {
   return (
@@ -11,12 +12,7 @@ function App() {
  </h1>
  
   
- <form className="search-form">
- <div className="row">
-   <div className="col-6"> <input type="text" className="form-control" placeholder="Enter city name..." /></div>
- <div className="col-3"> <input type="button" className="btn btn-outline-secondary" value="Search" /></div>
-  </div> 
-  </form>
+ <SearchEngine />
   <Weather />
  </div>
 
