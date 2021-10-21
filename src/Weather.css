@@ -1,7 +1,7 @@
 .weather {
-    color: #172774;
-    padding: 5%;
-    margin: 5%;
+    color: hsl(230, 67%, 27%);
+    padding: 0%;
+    margin: 0%;
  }
 
  li {
@@ -11,7 +11,7 @@
 list-style: none;
  }
 
- .right{
+ .right, .weekday, .date {
      font-size: small;
  }
 
