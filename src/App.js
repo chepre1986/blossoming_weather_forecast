@@ -14,7 +14,7 @@ function App() {
  
   
  <SearchEngine />
-  <Weather />
+  <Weather city="London"/>
   <Forecast />
  </div>
 
