@@ -11,10 +11,9 @@ export default function Weather(){
 function handleResponse(response){
     console.log(response.data);
 }
-const apiKey = 'c58deb31cab08568b138a3d93fb29c29';
-let city = 'London';
-let apiUrl ='https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}';
-
+const apiKey = "c58deb31cab08568b138a3d93fb29c29";
+let city = "London";
+let apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 axios.get(apiUrl).then(handleResponse);
 
 
