@@ -2,9 +2,22 @@ import React from "react";
 import './Weather.css';
 import Temperature from "./Temperature";
 import WeatherIcon from "./WeatherIcon";
+import axios from "axios";
+
 
 
 export default function Weather(){
+
+function handleResponse(response){
+    console.log(response.data);
+}
+const apiKey = 'c58deb31cab08568b138a3d93fb29c29';
+let city = 'London';
+let apiUrl ='https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}';
+
+axios.get(apiUrl).then(handleResponse);
+
+
 return(<div className='weather'>
     <div className=' row icon-and-temp'>
     <div className='col-6 left'><WeatherIcon />
